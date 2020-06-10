@@ -1,0 +1,185 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "size": 60120,
+      "mtime": "2020-06-10 14:36:58",
+      "fname": "/Users/pbrazda/Dropbox/PMC/research/projects/BreastCancer/analysis/10x/out/meta.tsv",
+      "md5": "cfe9cd0652"
+    },
+    "outMeta": {
+      "size": 60120,
+      "mtime": "2020-06-10 14:38:12",
+      "fname": "/Users/pbrazda/Dropbox/PMC/research/projects/BreastCancer/analysis/10x/out/TEG_10x_CD4/meta.tsv",
+      "md5": "cfe9cd0652"
+    },
+    "outMatrix": {
+      "size": 15435875,
+      "mtime": "2020-06-10 14:38:12",
+      "fname": "/Users/pbrazda/Dropbox/PMC/research/projects/BreastCancer/analysis/10x/out/TEG_10x_CD4/exprMatrix.tsv.gz",
+      "md5": "bc1da12dc7"
+    },
+    "inMatrix": {
+      "size": 15435875,
+      "mtime": "2020-06-10 14:36:58",
+      "fname": "/Users/pbrazda/Dropbox/PMC/research/projects/BreastCancer/analysis/10x/out/exprMatrix.tsv.gz",
+      "md5": "bc1da12dc7"
+    },
+    "conf": {
+      "size": 421,
+      "mtime": "2020-06-10 14:36:58",
+      "fname": "/Users/pbrazda/Dropbox/PMC/research/projects/BreastCancer/analysis/10x/out/cellbrowser.conf",
+      "md5": "6988a57e64"
+    }
+  },
+  "sampleCount": 1676,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 16,
+      "diffValCount": 1676,
+      "md5": "d419d8bff8"
+    },
+    {
+      "name": "PercentMitochondrial",
+      "label": "Percent_Mitochondrial",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 1669,
+      "md5": "a3cc28e763"
+    },
+    {
+      "name": "Clusters",
+      "label": "Clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1051
+        ],
+        [
+          "1",
+          302
+        ],
+        [
+          "2",
+          118
+        ],
+        [
+          "3",
+          73
+        ],
+        [
+          "4",
+          55
+        ],
+        [
+          "5",
+          49
+        ],
+        [
+          "6",
+          28
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "397cdfb8e8"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "Clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "8024d2690a",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "1": [
+      "GRAP2",
+      "PRKCH",
+      "MSH3",
+      "TNFAIP8",
+      "HMOX2"
+    ],
+    "0": [
+      "MX1",
+      "RNF125",
+      "GNLY",
+      "CCP110",
+      "KDM5B"
+    ],
+    "3": [
+      "FTL",
+      "S100A6",
+      "IFI16",
+      "COX7A2",
+      "ATP5PF"
+    ],
+    "2": [
+      "COX7A2",
+      "ANXA2",
+      "PPIA",
+      "ARHGDIB",
+      "ACTR3"
+    ],
+    "5": [
+      "PRMT2",
+      "BIRC6",
+      "HM13",
+      "EWSR1",
+      "TMED5"
+    ],
+    "4": [
+      "CDK6",
+      "PHTF2",
+      "SYT11",
+      "TMBIM6",
+      "HLA-E"
+    ],
+    "7": [
+      "CTSZ",
+      "TAGLN2",
+      "MT-ND3",
+      "SQSTM1",
+      "ATP5ME"
+    ],
+    "6": [
+      "CD9",
+      "MRPL57",
+      "MFHAS1",
+      "GADD45A",
+      "MSI2"
+    ],
+    "8": [
+      "MEAF6",
+      "SERBP1",
+      "ATP1A1",
+      "FAM3C",
+      "MRPS18C"
+    ]
+  },
+  "markers": [
+    {
+      "shortLabel": "Seurat Cluster Markers",
+      "name": "markers_0"
+    }
+  ],
+  "name": "TEG_10x_CD4",
+  "shortLabel": "TEG_10x_CD4",
+  "clusterField": "Clusters",
+  "md5": "a92d0bc94f"
+}
