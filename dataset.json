@@ -1,0 +1,23 @@
+{
+  "shortLabel": "All Datasets",
+  "datasets": [
+    {
+      "sampleCount": 1676,
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "shortLabel": "TEG_10x_CD4",
+      "name": "TEG_10x_CD4",
+      "md5": "a92d0bc94f"
+    },
+    {
+      "isCollection": true,
+      "datasetCount": 1,
+      "shortLabel": "All Datasets",
+      "name": "",
+      "md5": "d41d8cd98f"
+    }
+  ],
+  "name": "",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        "
+}
